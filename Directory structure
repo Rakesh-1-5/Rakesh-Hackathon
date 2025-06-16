@@ -1,0 +1,15 @@
+├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies
+├── data/                       # Data directory (add .gitkeep file)
+│   └── (data files ignored)
+├── src/                        # Source code
+│   ├── data_exploration.py     # Data analysis
+│   ├── preprocessing.py        # Data cleaning
+│   ├── model_training.py       # Model training code
+│   ├── dashboard.py            # Streamlit app
+│   ├── retrain.py              # Model retraining script
+│   └── email_alert.py          # Notification system (optional)
+├── models/                     # Trained models
+│   └── job_fraud_model.pkl     # Pretrained model
+└── assets/                     # Images/resources
+    └── class_distribution.png  # Sample visualization
